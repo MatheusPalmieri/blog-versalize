@@ -12,10 +12,12 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "jest-environment-jsdom": "^29.7.0",
     "next": "14.0.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.23.3",
