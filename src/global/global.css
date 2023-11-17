@@ -5,18 +5,50 @@
 
   font-family: Arial, Helvetica, sans-serif;
   font-synthesis: none;
+  transition: 0.3s;
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #eaedf2;
   color: #7c73c0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 200px) {
+  .container {
+    width: 100%;
+    padding: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 32px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .container {
+    width: 1920px;
+  }
 }
 
 /* Scroll Bar */
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #7c73c0;
+  background-color: #e4e4e4;
 }
 
 ::-webkit-scrollbar-thumb {

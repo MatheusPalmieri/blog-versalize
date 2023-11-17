@@ -9,7 +9,7 @@ interface SearchProps {
 }
 
 export const Search = ({ placeholder }: SearchProps) => {
-  const [show, setShow] = useState<boolean>(true);
+  const [show, setShow] = useState<boolean>(false);
   const [text, setText] = useState<string>('');
 
   return (

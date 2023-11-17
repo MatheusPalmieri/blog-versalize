@@ -1,0 +1,67 @@
+/* Card */
+
+.card {
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.body {
+  margin: 32px 0;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.content {
+  color: #777;
+  text-align: justify;
+}
+
+.comments {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.comments:hover {
+  color: #555;
+}
+
+/* Profile */
+
+.profile {
+  width: fit-content;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.username {
+  color: #555;
+}
