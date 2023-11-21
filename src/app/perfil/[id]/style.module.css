@@ -1,0 +1,20 @@
+.titles {
+  margin: 32px 16px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  position: relative;
+  font-size: 32px;
+  bottom: -10px;
+}
+
+.subtitle {
+  position: absolute;
+  font-size: 34px;
+  opacity: 0.4;
+  cursor: default;
+}

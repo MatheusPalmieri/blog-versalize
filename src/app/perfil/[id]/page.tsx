@@ -4,6 +4,7 @@ import { CardsPosts } from '@/components/CardsProfile/CardsPosts';
 import { Nav } from '@/components/Nav';
 import { getPostsByUser } from '@/services/posts';
 import { getUser } from '@/services/users';
+import styles from './style.module.css';
 
 export default async function Profile({ params }: { params: { id: string } }) {
   const [user, posts] = await Promise.all([
@@ -23,7 +24,10 @@ export default async function Profile({ params }: { params: { id: string } }) {
           website={user.website}
         />
 
-        <h2>Posts</h2>
+        <div className={styles.titles}>
+          <h3 className={styles.subtitle}>Publicações</h3>
+          <h2 className={styles.title}>#Posts</h2>
+        </div>
         <CardsPosts posts={posts} />
       </div>
     </div>
