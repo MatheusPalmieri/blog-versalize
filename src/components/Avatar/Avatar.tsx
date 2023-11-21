@@ -1,5 +1,5 @@
 import { BigHead, AvatarProps as CharacterProps } from '@bigheads/core';
-import AvatarCharacter from './avatar.json';
+import AvatarCharacter from '../CardPost/avatar.json';
 
 interface AvatarOptionsProps {
   [key: string]: {

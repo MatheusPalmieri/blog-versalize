@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
 import { Posts } from '@/components/Posts';
 import { Post } from '@/interfaces/posts';
-import getPosts from '@/services/posts';
+import { getPosts } from '@/services/posts';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

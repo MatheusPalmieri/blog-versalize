@@ -9,8 +9,14 @@
   padding: 16px;
 }
 
-.body {
+.content {
   margin: 32px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
 
 .title {
@@ -20,9 +26,14 @@
   margin-bottom: 5px;
 }
 
-.content {
+.body {
   color: #777;
   text-align: justify;
+}
+
+.title::first-letter,
+.body::first-letter {
+  text-transform: capitalize;
 }
 
 .comments {
