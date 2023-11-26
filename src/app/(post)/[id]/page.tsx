@@ -10,9 +10,17 @@ export default async function Post({ params }: { params: { id: string } }) {
   const [post, comments] = await Promise.all([getPost(id), getComments(id)]);
   const user = await getUser(post.userId);
 
+  const title = `Post - #00${id.toString()}`;
+  const description = post.body;
+
   return (
     <>
       <Nav />
+
+      <header>
+        <title>{title}</title>
+        <meta name='description' content={description} />
+      </header>
 
       <div className={`container`}>
         <div className={styles.card}>
