@@ -9,31 +9,10 @@
   padding: 16px;
 }
 
-.content {
-  margin: 32px 0;
-}
-
 @media only screen and (max-width: 600px) {
   .card {
     width: 100%;
   }
-}
-
-.title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #222;
-  margin-bottom: 5px;
-}
-
-.body {
-  color: #777;
-  text-align: justify;
-}
-
-.title::first-letter,
-.body::first-letter {
-  text-transform: capitalize;
 }
 
 .comments {

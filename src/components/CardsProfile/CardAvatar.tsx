@@ -18,7 +18,7 @@ export const CardAvatar = ({ id, name, username }: CardProps) => {
 
       <div className={styles.text}>
         <h2 className={styles.name}>{name}</h2>
-        <h3 className={styles.username}>@{username}</h3>
+        <h3 className={styles.username}>@{username.toLowerCase()}</h3>
       </div>
     </div>
   );

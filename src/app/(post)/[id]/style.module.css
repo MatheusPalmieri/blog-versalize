@@ -1,0 +1,103 @@
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titles {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  position: relative;
+  font-size: 32px;
+  text-align: center;
+  bottom: -10px;
+}
+
+.title::first-letter,
+.body::first-letter {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  position: absolute;
+  font-size: 34px;
+  opacity: 0.4;
+  cursor: default;
+}
+
+.body {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: justify;
+  color: #333;
+}
+
+.profile {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.hr {
+  width: 60%;
+  height: 1px;
+  background-color: #333;
+  opacity: 0.2;
+  border: none;
+}
+
+/* Comments */
+
+.comments {
+  width: 70%;
+  background-color: #fefefe;
+  border-radius: 10px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comments:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  transform: translateX(20px);
+}
+
+.email {
+  font-size: 14px;
+  color: #999;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.name::first-letter, .body_comment::first-letter {
+  text-transform: uppercase;
+}
+
+.body_comment {
+  font-size: 14px;
+}

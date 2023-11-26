@@ -7,8 +7,14 @@ export async function getPosts(): Promise<Post[]> {
   return data.sort(() => Math.random() - 0.5);
 }
 
-export async function getPostsByUser(id: number): Promise<Post[]> {
-  const { data } = await api.get(`/posts?userId=${id.toString()}`);
+export async function getPost(id: string | number): Promise<Post> {
+  const { data } = await api.get(`/posts/${String(id)}`);
+
+  return data;
+}
+
+export async function getPostsByUser(id: string | number): Promise<Post[]> {
+  const { data } = await api.get(`/posts?userId=${String(id)}`);
 
   return data;
 }

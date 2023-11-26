@@ -24,7 +24,7 @@ export const Profile = ({ user }: ProfileProps) => {
 
       <div className={styles.text}>
         <p className={styles.name}>{name}</p>
-        <p className={styles.username}>@{username}</p>
+        <p className={styles.username}>@{username.toLowerCase()}</p>
       </div>
     </div>
   );

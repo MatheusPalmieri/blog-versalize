@@ -3,6 +3,7 @@ import styles from './style.module.css';
 import { Profile } from './Profile';
 import { getUser } from '@/services/users';
 import { getComments } from '@/services/comments';
+import { Text } from '../Text';
 
 interface CardPostProps {
   post: Post;
@@ -21,10 +22,7 @@ export const CardPost = async ({ post }: CardPostProps) => {
       <div>
         <Profile user={user} />
 
-        <div className={styles.content}>
-          <h2 className={styles.title}>{title}</h2>
-          <p className={styles.body}>{body}</p>
-        </div>
+        <Text id={id} title={title} body={body} />
       </div>
 
       <div className={styles.comments}>
