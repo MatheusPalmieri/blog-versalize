@@ -19,7 +19,7 @@ export const Text = ({ id, title, body }: TextProps) => {
       onClick={(e) => {
         if (!id) return null;
         e.stopPropagation();
-        router.push(`/${String(id)}`);
+        router.push(`/${String(id)}?utm_source=feed`);
       }}
     >
       <h2 className={styles.title}>{title}</h2>

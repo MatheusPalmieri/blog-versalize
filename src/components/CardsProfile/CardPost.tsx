@@ -44,7 +44,7 @@ export const CardPost = ({ post }: CardPostProps) => {
 
       <div
         className={styles.container}
-        onClick={() => router.push(`/${post.id}`)}
+        onClick={() => router.push(`/${post.id}?utm_source=profile`)}
       >
         <h4 className={styles.title}>{post.title}</h4>
         <p className={styles.body}>{post.body}</p>
