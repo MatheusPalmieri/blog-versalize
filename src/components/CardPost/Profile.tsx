@@ -23,7 +23,10 @@ export const Profile = ({ user }: ProfileProps) => {
       </div>
 
       <div className={styles.text}>
-        <p className={styles.name}>{name}</p>
+        <p className={styles.name}>
+          {name}{' '}
+          <span className={styles.redirect}>Clique para ver perfil.</span>
+        </p>
         <p className={styles.username}>@{username.toLowerCase()}</p>
       </div>
     </div>

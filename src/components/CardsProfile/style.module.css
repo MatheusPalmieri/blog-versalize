@@ -67,7 +67,6 @@
 }
 
 .text div:hover {
-  cursor: pointer;
   color: #6b63b0;
   transform: translateX(5px);
 }
@@ -96,24 +95,6 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 1200px) {
-  .grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .card_post {
   width: 250px;
   height: 250px;
@@ -122,6 +103,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 16px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .profile {
@@ -130,6 +112,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.redirect_post {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .icon {
@@ -149,9 +137,22 @@
   height: 25px;
 }
 
-.icon:hover {
+.redirect_text {
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.icon:hover,
+.card_post:hover .icon {
   background-color: #6b63b0;
   color: #ddd;
+}
+
+.card_post:hover .redirect_text {
+  opacity: 1;
+  color: #6b63b0;
 }
 
 .profile p {
@@ -187,4 +188,28 @@
 .title::first-letter,
 .body::first-letter {
   text-transform: capitalize;
+}
+
+/* Card Posts */
+
+@media screen and (max-width: 1200px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card_post {
+    width: 100%;
+  }
 }

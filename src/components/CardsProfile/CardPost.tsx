@@ -33,19 +33,22 @@ export const CardPost = ({ post }: CardPostProps) => {
   const router = useRouter();
 
   return (
-    <div className={styles.card_post}>
+    <div
+      className={styles.card_post}
+      onClick={() => router.push(`/${post.id}?utm_source=profile`)}
+    >
       <div className={styles.profile}>
-        <div className={styles.icon}>
-          <Icon />
+        <div className={styles.redirect_post}>
+          <div className={styles.icon}>
+            <Icon />
+          </div>
+          <p className={styles.redirect_text}>Detalhes</p>
         </div>
 
         <p>Post #00{post.id.toString().padStart(2)}</p>
       </div>
 
-      <div
-        className={styles.container}
-        onClick={() => router.push(`/${post.id}?utm_source=profile`)}
-      >
+      <div className={styles.container}>
         <h4 className={styles.title}>{post.title}</h4>
         <p className={styles.body}>{post.body}</p>
       </div>
