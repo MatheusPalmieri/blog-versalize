@@ -4,9 +4,11 @@ import styles from './style.module.css';
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
-      <Logo />
-      <Search />
+    <header className={styles.head}>
+      <div className={`container ${styles.header}`}>
+        <Logo />
+        <Search />
+      </div>
     </header>
   );
 };
