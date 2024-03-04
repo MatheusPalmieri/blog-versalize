@@ -1,3 +1,4 @@
+import { CardsLazy } from '@/components/CardsLazy';
 import { Header } from '@/components/Header';
 import { Posts } from '@/components/Posts';
 import { Post } from '@/interfaces/posts';
@@ -11,12 +12,13 @@ export const metadata: Metadata = {
 
 export default async function Home() {
   const posts: Post[] = await getPosts();
+  const loadedPosts = <Posts posts={posts.sort(() => Math.random() - 0.5)} />;
 
   return (
     <main>
       <Header />
 
-      <Posts posts={posts} />
+      <CardsLazy posts={loadedPosts} />
     </main>
   );
 }

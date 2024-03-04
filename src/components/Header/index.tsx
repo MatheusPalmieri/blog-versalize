@@ -1,5 +1,5 @@
 import { Logo } from '../Logo';
-import { Search } from '../Search';
+// import { Search } from '../Search';
 import styles from './style.module.css';
 
 export const Header = () => {
@@ -7,7 +7,7 @@ export const Header = () => {
     <header className={styles.head}>
       <div className={`container ${styles.header}`}>
         <Logo />
-        <Search />
+        {/* <Search /> */}
       </div>
     </header>
   );
