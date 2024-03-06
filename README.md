@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Blog D'ambrz</h1>
 
-## Getting Started
+<p align="center">Nosso blog utiliza o componente lazy para otimização de carregamento, evitando requisições desnecessárias.</p>
 
-First, run the development server:
+<br />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Screenshots
+
+#### Publicações
+
+<img src="src/assets/posts.png" width="720px">
+
+#### Detalhes publicação
+
+<img src="src/assets/post.png" width="720px">
+
+#### Perfil
+
+<img src="src/assets/profile.png" width="720px">
+
+#### Publicações do perfil
+
+<img src="src/assets/posts-profile.png" width="720px">
+
+<br />
+
+## Rodando a Aplicação
+
+<a href="https://matheuspalmieri-blog.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
+
+```
+https://matheuspalmieri-blog.netlify.app/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br />
+<i>Siga as etapas para rodar o Projeto em sua máquina local.</i>
+<br />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Requirimentos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
 
-## Learn More
+#### Clone o repositório e acesse a pasta
 
-To learn more about Next.js, take a look at the following resources:
+```
+$ git clone https://github.com/MatheusPalmieri/blog && cd blog
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Instalando as dependências necessárias
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+$ npm install or yarn
+```
 
-## Deploy on Vercel
+#### Rodar projeto local
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+$ npm run dev or yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
+
+<br />
+
+## Tecnologias
+
+<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+
+**Frontend**: Next, TypeScript e CSS.
+<br />
+**Api**: {JSON} Placeholder.
+
+<br />
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+<br />
+📜
+## Autor
+
+Create for <b>`Matheus Palmieri`</b>👨‍💻
+
+<br />
+
+<p align="center">📜 Blog V1.0.0 🚀</p>
