@@ -78,7 +78,7 @@ $ npm run dev or yarn dev
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 <br />
-📜
+
 ## Autor
 
 Create for <b>`Matheus Palmieri`</b>👨‍💻
