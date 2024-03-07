@@ -1,88 +1,88 @@
 <h1 align="center">Blog D'ambrz</h1>
 
-<p align="center">Nosso blog utiliza o componente lazy para otimização de carregamento, evitando requisições desnecessárias.</p>
+<p align="center">Our blog utilizes the lazy loading component for optimization of loading, avoiding unnecessary requests.</p>
 
 <br />
 
 ## Screenshots
 
-#### Publicações
+#### Posts
 
 <img src="src/assets/posts.png" width="720px">
 
-#### Detalhes publicação
+#### Post Details
 
 <img src="src/assets/post.png" width="720px">
 
-#### Perfil
+#### Profile
 
 <img src="src/assets/profile.png" width="720px">
 
-#### Publicações do perfil
+#### Profile Posts
 
 <img src="src/assets/posts-profile.png" width="720px">
 
 <br />
 
-## Rodando a Aplicação
+## Running the Application
 
-<a href="https://matheuspalmieri-blog.netlify.app/" target="_blank">Acesso o site do Projeto, clicando aqui.</a>
+<a href="https://matheuspalmieri-blog.netlify.app/" target="_blank">Access the Project's website by clicking here.</a>
 
 ```
 https://matheuspalmieri-blog.netlify.app/
 ```
 
 <br />
-<i>Siga as etapas para rodar o Projeto em sua máquina local.</i>
+<i>Follow the steps to run the Project on your local machine.</i>
 <br />
 
-#### Requirimentos
+#### Requirements
 
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/lang/en/) or [Npm](https://www.npmjs.com/)
 
-#### Clone o repositório e acesse a pasta
+#### Clone the repository and navigate to the folder
 
 ```
 $ git clone https://github.com/MatheusPalmieri/blog && cd blog
 ```
 
-#### Instalando as dependências necessárias
+#### Installing necessary dependencies
 
 ```
 $ npm install or yarn
 ```
 
-#### Rodar projeto local
+#### Run local project
 
 ```
 $ npm run dev or yarn dev
 ```
 
-<i>Abra o browser na página "http://localhost:3000" para visualizar.</i>
+<i>Open the browser on the page \"http://localhost:3000\" to view.</i>
 
 <br />
 
-## Tecnologias
+## Technologies
 
-<p>As seguintes ferramentas foram usadas na construção do projeto:</p>
+<p>The following tools were used in the project:</p>
 
-**Frontend**: Next, TypeScript e CSS.
+**Frontend**: Next, TypeScript, and CSS.
 <br />
-**Api**: {JSON} Placeholder.
-
-<br />
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+**API**: {JSON} Placeholder.
 
 <br />
 
-## Autor
+## License
 
-Create for <b>`Matheus Palmieri`</b>👨‍💻
+This project is licensed under the [MIT License](LICENSE).
 
 <br />
 
-<p align="center">📜 Blog V1.0.0 🚀</p>
+## Author
+
+Created by <b>`Matheus Palmieri`</b>👨‍💻
+
+<br />
+
+<p align=\"center\">📜 Blog V1.0.0 🚀</p>
