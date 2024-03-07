@@ -59,7 +59,7 @@ $ npm install or yarn
 $ npm run dev or yarn dev
 ```
 
-<i>Open the browser on the page \"http://localhost:3000\" to view.</i>
+<i>Open the browser on the page "http://localhost:3000" to view.</i>
 
 <br />
 
